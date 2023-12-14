@@ -1,7 +1,10 @@
 # GNN-Disease: Learning Disease Similarity from Gene Graph Databases
 This is the course project repo for CSCI-5120 Course in The Chinese University of Hong Kong. The project title is: GNN-Disease: Learning Disease Similarity from Gene Graph Databases
+
 **Group Name**: AIH
+
 **Group Member**: Yixuan Wang, Yimin Fan, Liang Hong, Jiyue Jiang
+
 **Project Description**: 
 In this project, Our goal is to quantify the similarity between disease using existing graph databases. First, we collect data from two common human gene databases called HumanNet and Go Database. Then we use Graph neural network to embed th gene graph and perform contrastive learning in the gene embedding space to obtain high-quality gene embeddings. In the inference stage, we first collect the genes related to specific disease, and use average pooling to get the disease embedding and analyze the similarity across disease through the similarity of disease embeddings
 
